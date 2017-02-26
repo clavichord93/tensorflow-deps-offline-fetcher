@@ -1,8 +1,6 @@
 import os
 
 tfboard_dep_dir = '/home/qz/tensorflow/tfboard_deps'
-# if (os.path.exists(tfboard_dep_dir) == False):
-    # os.system('mkdir %s' % tfboard_dep_dir)
 if (os.path.exists('tfboard_deps') == False):
     os.system('mkdir tfboard_deps')
 
